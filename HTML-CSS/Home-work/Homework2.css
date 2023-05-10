@@ -1,0 +1,28 @@
+html{
+   margin: 0;
+   padding:  0;
+}
+header{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.categories{
+   display: flex;
+   align-content: center;
+   justify-content: space-around;
+}
+.products{
+    margin: 1px;
+   padding: 1px;
+   height: 280px;
+   width: 160px;
+   display: flex;
+   gap: 50px;
+   align-content: baseline;
+   justify-content: space-between;
+   flex-flow: nowrap;
+   flex-shrink: 1;
+   flex-grow: 0; 
+   flex-basis: 0;
+}

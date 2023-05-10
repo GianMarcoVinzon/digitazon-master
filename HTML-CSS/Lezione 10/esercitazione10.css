@@ -1,0 +1,26 @@
+.primo{
+    padding: 5px;
+    border: 1px solid gray;
+    margin: 30px ;
+    width: auto
+}
+.primo ul{
+    display: flex;
+    justify-content:space-around;
+   align-items: center;
+
+}
+.secondo {
+    border: 1px solid grey ;
+    padding: 5px;
+    margin: 30px;
+    width: auto;
+}
+.secodo ul{
+    display: flex;
+    justify-content:space-around;
+   align-items: center;
+   
+}
+
+

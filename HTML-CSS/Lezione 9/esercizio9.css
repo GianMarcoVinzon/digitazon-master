@@ -1,0 +1,29 @@
+header {
+    display: flex;
+}
+/* Menù */
+header div:last-child {
+    margin-left: auto;
+}
+/* link */
+header div:nth-child(2) {
+    margin-left: 1px;
+}
+header span {
+    padding: 5px;
+}
+
+/* lezioni */
+.lesson-details {
+    display: flex;
+    border: 1px solid grey;
+}
+
+.lesson-topic {
+    /* font-weigth è un modo per cambiare il carattere */
+    font-weight: bold; 
+    flex-grow: 1;
+}
+.lesson-detail {
+    flex-grow: 2;
+}

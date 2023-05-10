@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lezione 3</title>
+</head>
+
+<body>
+    <!-- NOTE: 
+- i nomi delle variabili possono, se non espressamente indicato, essere scelti a piacere.
+- passare dall'algoritmo al codice, non subito codice
+
+Ex 1:
+creare una variabile che contenga il seguente array
+[ 40, 50, 60, 70 ]
+crea l'algoritmo necessario per stampare in output:
+70
+60
+50
+40
+
+Ex 2:
+creare una variabile che contenga il seguente array
+[ 'mario', 'luigi', 'peach', 'daisy' ]
+stampare in output tutti i valori dell'array che NON terminano con la lettera 'o'
+
+Ex 3:
+creare una variabile che contenga il seguente array
+[ 'mario', 'luigi', 'peach', 'daisy' ]
+stampare in output:
+DY
+PH
+LI
+MO
+(la prima e l'ultima lettera di ogni valore dell'array in senso invertito)
+
+Ex 4:
+creare una variabile che contenga il seguente array
+[ 'mario', 'stefania', 'luca', lee' ]
+stampare in output SOLO il nome più lungo tra quelli presenti nell'array (se i valori dell'array cambiano, anche il risultato cambia senza alterare l'algoritmo)
+
+Ex 5:
+creare una variabile che contenga il seguente array
+[17, 5, 87, 14]
+stampa in output la somma totale di tutti i numeri contenuti nell'array nella modalità più modulare. -->
+    <script>
+        // es: 1
+        let x = ['40', '50', '60', '70']
+        for (let i  x.length-1; 1 >= )
+
+
+
+        // es: 2
+        let x = ['mario', 'luigi', 'peach', 'daisy']
+        for (let i = 0; i < x.length; 1 = i + 1) {
+            let string = x[i]
+            if (string.charAt(string.length - 1) == 'o')
+        else {
+                console.log(string)
+            }
+        }
+        // es: 2 clone 
+        let x = ['mario', 'luigi', 'peach', 'daisy', 'giorgia']
+
+        for (let i = 0, s = x[i]; i < x.length; i++)
+            if (s.charAt(s.length - 1) != 'o') console.log(s)
+
+        // es: 3 invertendo gia gli indici
+
+        let nomi = ['mario', 'luigi', 'peach', 'daisy']
+        for (let i = nomi.length - 1; i >= 0; i = i - 1) {
+            let x = (nomi[i].charAt(0), nomi[i].charAtnomi[i].length - 1)
+        }
+
+        // step 1 : ciclo for che selezioni i 4 elementi in ordine inverso
+        // step 2 : selezionare la prima e l' ultima lettera del vaolre contenuto all' indice x
+        // step 3 : stamparle con maiuscola 
+
+        //ex: 4 
+        let labels = ['mario', 'luigi', 'peach', 'daisy', 'giorgia']
+        let currentMaxLength = 0
+        let currentName = labels[0]
+        let result = [labels[0]]
+        for (let i = 0; i <= labels.length - 1; i++) {
+            if (labels[i].length > 1) {
+                result = []
+                currentMaxLength = labels[i].length
+                currentName = labels[i]
+                result.push(currentName)
+            }
+            else if (labels[i].length == currentMaxLength) {
+                currentName = labels[i]
+                result.push(currentName)
+            }
+            console.log(i + ' ' + result)
+        }
+        console.log(currentName)
+
+        // ex : 5
+        // creare array 
+        // ciclo in cui mi somma i miei indici uno alla volta
+        let x = [17, 5, 87, 14]
+        let somma = 0
+        // const debug = true questo serve a verificare al programmatore        
+
+
+        for (let i = 0; i < x.length; i++) {
+            somma = somma + x[i]  //somma+= x[i] short cut (somma = somma)
+
+            // questo serve a verificare al programmatore 
+            //    if (debug){ 
+            //     console.log(somma);
+        }
+        console.log(somma);
+    </script>
+</body>
+
+</html>

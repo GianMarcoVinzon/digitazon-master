@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.top-left{
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+}
+.top-center{
+    display: flex;
+    justify-content: start;
+}
+.top-right{
+    gap: 1rem;
+    display: flex;
+    justify-content: end;
+}
+
+main{
+    display: flex;
+
+}
+/* central tool */
+.box-tool{
+    display: flex;
+    width: 16rem;
+    background-color: blue;
+}
+.center-tool{
+    display: flex;
+    height: 1rem;
+}
+.center-tool1{
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+
+}
+.center-tool2{
+    margin-left: auto;
+    display: flex;
+    gap: 1rem;
+}

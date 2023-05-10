@@ -1,0 +1,31 @@
+*{
+    color: aliceblue;
+}
+body{
+    margin: 0;
+    background-color: #161617; 
+}
+header{
+    padding: 1rem;
+    height: 3rem;
+    background-color: #272729 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header:hover {
+    background-color: aliceblue;
+}
+.bar-left{
+  display: flex;
+  gap: 1rem;
+}
+.bar-center{
+    display: flex;
+    gap: 1rem;
+
+}
+.bar-right{
+    display: flex;
+    gap: 1rem;
+}

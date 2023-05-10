@@ -1,0 +1,37 @@
+   <script>
+            
+            //     Ex 1
+            // creare una funzione compareMap che accetta in ingresso due mappe.
+            // La funzione restituisce true SE le due mappe sono mappe, SE hanno lo stesso numero di elementi e per le stesse chiavi, gli stessi valori. 
+            // Testare il funzionamento di compareMap passando due mappe diverse nella prima chiamata, e due mappe uguali nella seconda chiamata
+            // -----------------------------------------------------------
+            
+            function compareMap (map1, map2){
+                if (map1 instanceof map == false || map2 instanceof Map == false){
+                    return false
+                }
+                let same = true 
+                m1.forEach(function(v,k) {
+            
+                    //  controlla che m2 abbia la chiave corrente di m1, se non ce la lha, restituisci false.
+                    if ( !m2.has(k) ){
+                        same = false 
+                    }
+                    //  qua dentro se m1 m2 hanno entrambe la chive corrente di m1 sia uguale a quello della stessa chiave di m2.
+                    if ( m1.get(k) !=m2.get(k) ) {
+                        same = false
+                    }
+                })
+            }
+            
+            
+            const m1 = new Map()
+            m1.set('name', 'giulio')
+            console.log (m1)
+            
+            const m2 = new Map ()
+            m2.set('city', 'Roma')
+            // (['city', 'Roma'])
+    
+
+        </script>  

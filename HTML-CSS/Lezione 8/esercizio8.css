@@ -1,0 +1,34 @@
+/* 1 esercizio */
+
+a, a:visited{
+    color: black;
+}
+a[href="/melange"]{
+    color: red;
+}
+a[href="/the-one-ring"]{
+    color: gold;
+}
+
+/* 2 esercizio */
+
+.movies-quotes span :first-child::after {
+    content: "« " ;
+}
+.movies-quotes span :nth-child(2)::after {
+    content: "»";
+}
+
+
+/* 3 esercizio */
+
+input:checked + span::after {
+    content:"❤";
+}
+
+/* 4 esercizio */
+
+button:hover {
+    visibility: hidden;
+    /* opacity: 0; */
+  }
