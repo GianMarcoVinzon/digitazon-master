@@ -1,0 +1,43 @@
+    {
+    "1": {
+      "categoria": "Mammiferi",
+      "specie": 3
+    },
+    "2": {
+      "categoria": "Rettili",
+      "specie": 2
+    },
+    "3": {
+      "categoria": "Uccelli",
+      "specie": 5
+    },
+    "4": {
+      "categoria": "Anfibi",
+      "specie": 1
+    },
+    "5": {
+      "categoria": "Insetti",
+      "specie": 4
+    },
+    "6": {
+      "categoria": "Pesci",
+      "specie": 2
+    },
+    "7": {
+      "categoria": "Artropodi",
+      "specie": 3
+    },
+    "8": {
+      "categoria": "Cefalopodi",
+      "specie": 5
+    },
+    "9": {
+      "categoria": "Molluschi",
+      "specie": 1
+    },
+    "10": {
+      "categoria": "Equini",
+      "specie": 4
+    }
+}
+  

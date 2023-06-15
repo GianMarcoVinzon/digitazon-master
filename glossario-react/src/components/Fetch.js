@@ -15,7 +15,7 @@ export function Fetch() {
 
     return (
         <>
-            <h1>Fetch</h1>
+            <h1>Fetch </h1>
             {products.map((el)=>
                 (
                     <div className="items" key={el.id}>
