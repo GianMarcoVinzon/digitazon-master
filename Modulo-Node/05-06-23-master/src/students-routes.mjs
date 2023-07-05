@@ -2,6 +2,7 @@ import students from '../db/students.json' assert { type: 'json' };
 import getData from '../scripts/fetchOtherGroups.mjs'
 
 
+
 export const firstPage = (req, res) => {
     res.send('ciao')
 }
